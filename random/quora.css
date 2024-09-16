@@ -1,0 +1,38 @@
+*{
+    background-color: #f6d6d5;
+}
+h1,h3{
+    color:#b92b27;
+}
+#login{
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+p :hover{
+    background-color: blue;
+    color:antiquewhite
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color:aliceblue;    
+}
+input[type="text"]{
+    background-color: rgb(240, 240, 251);
+}
+div input{
+    background-color: whitesmoke;
+}
+
+h1 button:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+span button:hover{
+    background-color: black;
+    color:beige
+}

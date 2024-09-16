@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fd calculator</title>
+    <link rel="stylesheet" href="fd.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fd Calculator</h1>
+        
+        <div class="form-grp">
+            <label for="amount">Principle Amount (in rupees):</label>
+                <input type="number" placeholder="Enter the amount" id="amount">           
+        </div>
+        <div class="form-grp">
+            <label for="interest">Interest Rate (in %):</label>
+            <input type="number" placeholder="Enter the interest rate" id="interest">  
+        </div>
+        <div class="form-grp">
+            <label for="time">Time period (in years):</label>
+                <input type="number" placeholder="Enter the time period" id="time">
+        </div>
+        <!-- <input type="reset" value="Rese" /> -->
+        <div class="button">
+            <button id="sumbit-btn" class="sumbit_btn" type="submit">Calculate</button>
+            <button type="reset">Reset</button>
+         </div>
+         <p class="result" id="result">Maturity amount:</p>
+         <p id="interestamnt">Interest amount:</p>
+    </div>
+    <script src="fd.js"></script>
+</body>
+</html>
